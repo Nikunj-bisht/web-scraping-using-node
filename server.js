@@ -9,6 +9,14 @@ const got = require('got');
 const json2csv = require('json2csv').Parser;
 //var user = [];
 
+
+//its  a  singleton class
+Regexsimlifier.getinstance().checkemail(String mail)
+// same you can use for others
+Regexsimplifier.setpasslength(int len) // use this for password limit
+
+
+
 const url = "https://www.popcornflix.com/pages/discover/d/movies";
 // process.on('unhandledRejection', (reason, promise) => {
 //    console.log('Unhandled Rejection at:', promise, 'reason:', reason);
